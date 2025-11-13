@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sarah Hani Farid — Data Analyst & BI Developer</title>
+  <meta name="description" content="Sarah Hani Farid — Data Analyst & BI Developer. Experience in SQL Server, Power BI, SSIS, Flask, and end-to-end analytics solutions." />
+  <meta name="keywords" content="Data Analyst, Power BI, SQL Server, Python, ETL, SSIS, DAX, Flask" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root{
+      --bg:#071023; --card:#0b1220; --muted:#9aa6b2; --accent:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,Arial;background:linear-gradient(180deg,#05101a,#071023);color:#eaf6ff}
+    .container{max-width:1100px;margin:32px auto;padding:20px}
+    header{display:flex;justify-content:space-between;align-items:center;gap:12px}
+    .logo{font-weight:700;color:var(--accent);text-decoration:none;font-size:18px}
+    nav a{color:#dff6fb;text-decoration:none;margin-left:12px;font-weight:600}
+    .hero{display:flex;gap:20px;align-items:center;margin-top:18px}
+    .hero-left{flex:1}
+    .hero-right{width:240px;min-width:180px}
+    .avatar{width:120px;height:120px;border-radius:14px;background:linear-gradient(135deg,#06b6d4,#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700;color:#02181b;font-size:28px}
+    h1{margin:0;font-size:28px}
+    .lead{color:var(--muted);margin-top:8px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+    .btn-primary{background:linear-gradient(90deg,var(--accent),#8b5cf6);color:#02181b}
+    .btn-secondary{background:transparent;border:1px solid rgba(255,255,255,0.05);color:#d8eef5}
+    .stats{display:flex;gap:12px;margin-top:14px;flex-wrap:wrap}
+    .stat{background:rgba(255,255,255,0.02);padding:10px;border-radius:10px;min-width:110px;text-align:center}
+    section.card{background:rgba(255,255,255,0.02);padding:18px;border-radius:12px;margin-top:16px}
+    .grid{display:grid;grid-template-columns:1fr 340px;gap:18px}
+    .projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:12px}
+    .project{background:#07101a;padding:12px;border-radius:10px}
+    .tech-badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+    .badge{background:rgba(255,255,255,0.03);padding:6px 8px;border-radius:8px;font-size:13px}
+    footer{margin-top:28px;color:var(--muted);text-align:center;padding:12px}
+    @media(max-width:900px){.grid{grid-template-columns:1fr}.hero{flex-direction:column}.hero-right{width:100%}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a class="logo" href="#">Sarah Hani Farid</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Hi — I'm <strong>Sarah Hani Farid</strong></h1>
+        <p class="lead">Data Analyst & BI Developer building end-to-end data solutions: SQL Server, ETL (SSIS), Power BI, Flask, and Python.</p>
+        <div style="margin-top:12px">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="#contact" style="margin-left:10px">Get in touch</a>
+        </div>
+
+        <div class="stats" aria-hidden="true">
+          <div class="stat"><strong>500</strong><div class="lead" style="font-size:13px;color:var(--muted)">Students managed</div></div>
+          <div class="stat"><strong>100%</strong><div class="lead" style="font-size:13px;color:var(--muted)">Exam automation</div></div>
+          <div class="stat"><strong>80%</strong><div class="lead" style="font-size:13px;color:var(--muted)">Faster grading</div></div>
+          <div class="stat"><strong>20+</strong><div class="lead" style="font-size:13px;color:var(--muted)">Power BI dashboards</div></div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="avatar">SH</div>
+        <p class="lead" style="margin-top:12px">MSc Data Science student (Cairo University) • ITI Power BI Track • SQL & Python</p>
+        <div style="margin-top:12px">
+          <a href="https://github.com/your-username" target="_blank" class="btn btn-secondary" style="display:inline-block">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid">
+      <main>
+        <section id="about" class="card">
+          <h2>About</h2>
+          <p>End-to-end Examination Management System developed as an ITI graduation project (Business Intelligence track). The system automates exam creation, execution, grading, and performance analytics through an integrated data pipeline and reporting layer.</p>
+
+          <h3 style="margin-top:12px">Tech Stack</h3>
+          <div class="tech-badges">
+            <span class="badge">SQL Server</span>
+            <span class="badge">SSIS</span>
+            <span class="badge">Power BI</span>
+            <span class="badge">DAX</span>
+            <span class="badge">Flask</span>
+            <span class="badge">Python</span>
+            <span class="badge">SSRS</span>
+          </div>
+        </section>
+
+        <section id="skills" class="card">
+          <h2>Skills</h2>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-top:12px">
+            <div class="project">
+              <h4>Data Engineering</h4>
+              <p class="lead" style="font-size:13px">Database design, ETL (SSIS), Stored Procedures, Indexing</p>
+            </div>
+            <div class="project">
+              <h4>Business Intelligence</h4>
+              <p class="lead" style="font-size:13px">Power BI, DAX, Semantic Modeling, SSRS</p>
+            </div>
+            <div class="project">
+              <h4>Programming</h4>
+              <p class="lead" style="font-size:13px">Python, Flask, Pandas, REST APIs</p>
+            </div>
+            <div class="project">
+              <h4>ML & Analysis</h4>
+              <p class="lead" style="font-size:13px">Model evaluation, EDA, Scikit-learn</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="card">
+          <h2>Featured Projects</h2>
+          <p class="lead">Selected end-to-end projects combining engineering, analytics, and BI.</p>
+
+          <!-- Examination System -->
+          <article style="margin-top:12px;padding:12px;background:#07101a;border-radius:10px">
+            <h3>Examination Management System — ITI Graduation Project</h3>
+            <p><strong>Summary:</strong> A complete platform to automate exams, grading, and analytics for 500 students, with a full ETL pipeline (Excel → SSIS → SQL Server → Flask → Power BI).</p>
+            <p><strong>Highlights:</strong></p>
+            <ul style="color:#dff6fb">
+              <li>100% automation of exam processes</li>
+              <li>~80% reduction in grading time</li>
+              <li>20+ interactive Power BI dashboards & SSRS reports</li>
+              <li>Role-based access (Student / Instructor), bulk answer submission, snowflake schema for BI</li>
+            </ul>
+            <div style="margin-top:8px">
+              <a class="btn btn-primary" href="https://github.com/your-username/Examination-Management-System" target="_blank">View Source (GitHub)</a>
+              <a class="btn btn-secondary" href="#" style="margin-left:10px">Open Power BI Report</a>
+            </div>
+          </article>
+
+          <!-- Other projects short -->
+          <div class="projects-grid" style="margin-top:12px">
+            <div class="project">
+              <h4>Bike Trips Analysis Dashboard</h4>
+              <p class="lead" style="font-size:13px">EDA, Power BI, Python</p>
+            </div>
+            <div class="project">
+              <h4>Credit Card Fraud Detection</h4>
+              <p class="lead" style="font-size:13px">PyTorch, Imbalanced Learning, Ensemble Models</p>
+            </div>
+            <div class="project">
+              <h4>Hotel Booking BI Project</h4>
+              <p class="lead" style="font-size:13px">Power BI, Star Schema, DAX</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <aside>
+        <section class="card">
+          <h3>Quick Links</h3>
+          <p class="lead">Replace placeholders with your actual links.</p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/your-username" target="_blank">github.com/your-username</a></p>
+          <p><strong>Power BI:</strong> <a href="#" target="_blank">app.powerbi.com/your-report</a></p>
+          <p><strong>Resume (PDF):</strong> <a href="#" target="_blank">Download CV</a></p>
+
+          <h4 style="margin-top:12px">Contact</h4>
+          <p class="lead">Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+          <p class="lead">LinkedIn: <a href="#" target="_blank">/in/your-linkedin</a></p>
+        </section>
+
+        <section class="card" style="margin-top:12px">
+          <h3>Deploy to GitHub Pages</h3>
+          <ol style="color:var(--muted)">
+            <li>Create repository named: <code>your-username.github.io</code></li>
+            <li>Upload this <code>index.html</code> file to the repository root (and any assets/images)</li>
+            <li>Visit: <code>https://your-username.github.io</code> after a minute</li>
+          </ol>
+          <p class="lead">If you prefer to use Git locally, run:</p>
+          <pre style="background:#081521;padding:10px;border-radius:8px;color:#bcead5">git init
+git add index.html
+git commit -m "Initial portfolio"
+git branch -M main
+git remote add origin https://github.com/your-username/your-username.github.io.git
+git push -u origin main</pre>
+        </section>
+      </aside>
+    </div>
+
+    <footer>
+      <p style="color:var(--muted)">&copy; <span id="year"></span> Sarah Hani Farid — Data Analyst & BI Developer</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
